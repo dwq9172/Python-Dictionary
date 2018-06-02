@@ -1,0 +1,104 @@
+BinarySearchTree
+Search time: 0.003209 seconds 
+random list: size 100
+word in tree, word: "purflings"
+
+Search time: 0.003313 seconds 
+random list: size 100
+word in tree, word: "purflings"
+
+Search time: 0.003834 seconds 
+random list: size 1000
+word in tree, word: "purflings"
+
+Search time: 0.034993 seconds 
+random list: size 1000
+word in tree, word: "purflings"
+Error in building BinarySearchTree,  size 10000, random list, word: "purflings"
+
+Search time: 0.034906 seconds 
+random list: size 10000
+word in tree, word: "purflings"
+Error in building BinarySearchTree,  size 20000, random list, word: "purflings"
+
+Search time: 0.067828 seconds 
+random list: size 20000
+word in tree, word: "purflings"
+
+Search time: 0.007874 seconds 
+random list: size 100
+word not in tree, word: "dark"
+
+Search time: 0.006800 seconds 
+random list: size 100
+word not in tree, word: "dark"
+
+Search time: 0.015731 seconds 
+random list: size 1000
+word not in tree, word: "dark"
+
+Search time: 0.042495 seconds 
+random list: size 1000
+word not in tree, word: "dark"
+Error in building BinarySearchTree,  size 10000, random list, word: "dark"
+
+Search time: 0.064001 seconds 
+random list: size 10000
+word not in tree, word: "dark"
+Error in building BinarySearchTree,  size 20000, random list, word: "dark"
+
+Search time: 0.043938 seconds 
+random list: size 20000
+word not in tree, word: "dark"
+
+Search time: 0.006640 seconds 
+ordered list: size 100
+word in tree, word: "abampere"
+
+Search time: 0.010380 seconds 
+ordered list: size 100
+word in tree, word: "abampere"
+
+Search time: 0.009962 seconds 
+ordered list: size 1000
+word in tree, word: "abampere"
+
+Search time: 0.026267 seconds 
+ordered list: size 1000
+word in tree, word: "abampere"
+Error in building BinarySearchTree,  size 10000, ordered list, word: "abampere"
+
+Search time: 0.039839 seconds 
+ordered list: size 10000
+word in tree, word: "abampere"
+Error in building BinarySearchTree,  size 20000, ordered list, word: "abampere"
+
+Search time: 0.008789 seconds 
+ordered list: size 20000
+word in tree, word: "abampere"
+
+Search time: 0.006257 seconds 
+ordered list: size 100
+word not in tree, word: "dark"
+
+Search time: 0.007871 seconds 
+ordered list: size 100
+word not in tree, word: "dark"
+
+Search time: 0.033100 seconds 
+ordered list: size 1000
+word not in tree, word: "dark"
+
+Search time: 0.012208 seconds 
+ordered list: size 1000
+word not in tree, word: "dark"
+Error in building BinarySearchTree,  size 10000, ordered list, word: "dark"
+
+Search time: 0.008411 seconds 
+ordered list: size 10000
+word not in tree, word: "dark"
+Error in building BinarySearchTree,  size 20000, ordered list, word: "dark"
+
+Search time: 0.008426 seconds 
+ordered list: size 20000
+word not in tree, word: "dark"

@@ -1,0 +1,29 @@
+1. Place the four py files in a PyCharm project.
+2. Run node.py - look closely at the addresses of 
+   the objects and how they relate to prev and next
+3. Complete the constructor and four methods in aqueue.py
+4. Then run aqueue.py, deque.py, and
+5. finally test_Queue_Deque.py to see your score.
+
+Starter file: binheap.py -run then remove the body of the main          (minChild is index)
+and replace with the ten lines of code described in steps 1-9 below:
+1. Assign to a list the return value from 
+   urlopen('http://people.uncw.edu/tompkinsj/231/resources/dictionary.txt').read().split()
+2. Print the number of words in this list along with the first word in the list.
+3. Instantiate a BinHeap 
+4. Instantiate an empty list
+5. Record the time using the time module's clock method
+6. Pass the unsorted large list of words to the binary heap's buildHeap method
+7. Use the binary heap to populate the empty list with the sorted words
+8. Record the time using the time module's clock method
+9. Print the time required to sort the unsorted list, the first word in the now sorted list
+   Sample output: 
+   183,718 words beginning with sublibrarians
+   183,718 words sorted in 2.533370561254629 seconds, first word in the list is aa
+   Note the bytes object is converted to a string using say words[0].decode()  -lexical analysis
+10. At the end of your main method, describe how you might modify the code 
+    to prove to me that this is indeed an nlgn sort. 
+    Consider using a single multiline string with one print statement 
+    for your discussion instead of several print statements. 
+    Alternatively, write another function that does test the Big O behavior of this technique. 
+Upload two files only, aqueue.py and binheap.py, with your name in the __author__ fields, be sure to include docstrings for the methods you write/modify.
