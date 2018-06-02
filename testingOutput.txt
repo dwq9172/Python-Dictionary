@@ -1,0 +1,53 @@
+SEARCHING WORD IN TREE WITH RANDOM LIST
+BinarySearchTree, height of tree: 100, size of tree: 100
+yes, purflings is in tree, found at key 36
+Searching for word "purflings" in size 100 tree took 0.000161 seconds
+Based on time measured for current size 100: 0.000161 seconds, for next size 1000:
+           	current  : 0.000161
+           	O(logN)  : 0.000241
+           	O(N)     : 0.001608
+           	O(NlogN) : 0.002412
+           	O(N2)    : 0.016079
+
+AVLTree, height of tree: 7, size of tree: 100
+yes, purflings is in tree, found at key 36
+Searching for word "purflings" in size 100 tree took 0.000200 seconds
+Based on time measured for current size 100: 0.000200 seconds, for next size 1000:
+           	current  : 0.000200
+           	O(logN)  : 0.000300
+           	O(N)     : 0.002001
+           	O(NlogN) : 0.003002
+           	O(N2)    : 0.020013
+
+	
+BinarySearchTree, height of tree: 1000, size of tree: 1000
+yes, purflings is in tree, found at key 36
+Searching for word "purflings" in size 1000 tree took 0.000120 seconds
+Based on time measured for current size 1000: 0.000120 seconds, for next size 10000:
+           	current  : 0.000120
+           	O(logN)  : 0.000160
+           	O(N)     : 0.001197
+           	O(NlogN) : 0.001597
+           	O(N2)    : 0.011974
+
+AVLTree, height of tree: 10, size of tree: 1000
+yes, purflings is in tree, found at key 36
+Searching for word "purflings" in size 1000 tree took 0.001454 seconds
+Based on time measured for current size 1000: 0.001454 seconds, for next size 10000:
+           	current  : 0.001454
+           	O(logN)  : 0.001939
+           	O(N)     : 0.014540
+           	O(NlogN) : 0.019386
+           	O(N2)    : 0.145396
+
+	
+Exception caught while building the BinarySearchTree with size 10000: maximum recursion depth exceeded
+AVLTree, height of tree: 14, size of tree: 10000
+yes, purflings is in tree, found at key 36
+Searching for word "purflings" in size 10000 tree took 0.015143 seconds
+Based on time measured for current size 10000: 0.015143 seconds, for next size 20000:
+           	current  : 0.015143
+           	O(logN)  : 0.016282
+           	O(N)     : 0.030286
+           	O(NlogN) : 0.032565
+           	O(N2)    : 0.060571
