@@ -6,4 +6,5 @@
 # aqueue.py, deque.py, and test_Queue_Deque.py tests a FIFO data structure, or First In First Out.
 # node.py is the building block of a linked list implementation.
 # treeNode.py is an implementation of a tree node data structure, with functions about root, leaf (no children), left children, and right children.
+# quicksortRosettaCode.py is an implementation of a quick sort. A recursive function, calls itself and keeps dividing into two parts.
 
